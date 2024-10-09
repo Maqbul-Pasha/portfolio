@@ -176,7 +176,7 @@ const Header = ({ onSidebarOpen }) => {
             <IconButton
               aria-label='LinkedIn'
               color='primary'
-              href='#'
+              href='https://www.linkedin.com/in/maqbulpasha/'
               target='_blank'
             >
               <LinkedInIcon fontSize='large' />
@@ -184,7 +184,7 @@ const Header = ({ onSidebarOpen }) => {
             <IconButton
               aria-label='Instagram'
               color='primary'
-              href='#'
+              href='https://www.linkedin.com/in/maqbulpasha/'
               target='_blank'
             >
               <InstagramIcon fontSize='large' />

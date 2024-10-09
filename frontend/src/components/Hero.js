@@ -63,7 +63,7 @@ const Hero = () => {
                       I enjoy solving complex problems and continuously improving my skills to create impactful digital solutions.
                     </Typography>
                   </Box>
-                  <HeroButtons />
+                  {/* <HeroButtons /> */}
                 </Box>
               </Container>
             </Box>
@@ -120,7 +120,7 @@ const Hero = () => {
                     >
                       <Box
                         component={LazyLoadImage}
-                        src='/images/maqbulp.jpg'
+                        src='/images/maqbuld.jpg'
                         alt='Background Image'
                         effect='blur'
                         height={{ xs: 'auto', md: 1 }}
