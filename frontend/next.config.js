@@ -2,7 +2,7 @@ const withImages = require('next-images');
 
 module.exports = withImages({
   images: {
-    domains: [process.env.BACKEND_HOST],
+    domains: [process.env.BACKEND_HOST || ''], // Default to an empty string if BACKEND_HOST is not defined
   },
   async rewrites() {
     return [
